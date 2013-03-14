@@ -2,5 +2,48 @@ body{
 	color: #101010;
 	width: 790px;
 	margin: 0 auto;
+	background: #d0d0d0;
 	font-family: 'Droid Serif', serif;
 	}
+	
+	ul {
+	width:400px;
+	margin: 0 auto;
+	list-style-type: none;
+	padding: 0;
+	overflow: hidden;
+}
+
+li{
+	width:100px;
+	float:left;
+	background: #d0d0d0
+}
+
+a{
+	text-decoration:none;
+	background: #a0a0a0a0;
+	display: block;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	color: #000066;
+}
+a:hover{
+	background: #000099;
+}
+
+h1{
+	font-family: 'Merienda', cursive;
+	font-size;16px;
+	text-shadow:3px 3px 3px #d8d8d8;
+	text-align: center;
+}
+
+h2{
+	color: #0000cc
+}
+
+div{
+-moz-column-count: 3;	
+}
