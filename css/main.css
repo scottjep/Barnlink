@@ -57,13 +57,24 @@ div#details {
 div#why{
 	-moz-column-count: 3;	
 }
-#gallery {
-	width:600px;
-}
-#gallery ul li {
-	float: left;
-}
+div#gallery {
 
+	height: 700px;
+	
+}
+ul#galleryimages{
+	border: thin solid black;
+	width: 45%;
+	height: 500px;
+}
+ul#galleryimages li {
+}
+ul#galleryimages li img {
+	width:200px;
+	height:214px;
+	float: left;
+	margin: 4px;
+}
 .test {
 	background: pink;
 }
