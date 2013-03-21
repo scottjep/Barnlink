@@ -7,6 +7,7 @@ div#wrapper {
 	width: 80%;
 	margin: 0 auto;
 	padding: 10px;
+	background: darkgrey
 }
 #logo {
 	width: 300px;
@@ -74,7 +75,4 @@ ul#galleryimages li img {
 	height:214px;
 	float: left;
 	margin: 4px;
-}
-.test {
-	background: pink;
 }
